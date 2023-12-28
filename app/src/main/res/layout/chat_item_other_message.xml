@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_chat_message"
+        android:layout_marginHorizontal="22dp"
+        android:layout_marginVertical="4dp"
+        android:layout_gravity="start"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="9dp"
+            android:layout_marginStart="13dp"
+            android:layout_marginEnd="10dp"
+            android:textSize="14sp"
+            android:textColor="@color/color_6"
+            tools:text="Hope u r well?" />
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="3dp"
+            android:layout_marginEnd="12dp"
+            android:textSize="8sp"
+            android:textColor="@color/color_7"
+            tools:text="6:04" />
+
+    </LinearLayout>
+
+</FrameLayout>
